@@ -23,7 +23,7 @@ const getSum = () => {
 	row.appendChild(totalPriceCell);
 	row.appendChild(totalPriceAmountCell);
 
-	const tableBody=document.querySelector('table');
+	const tableBody=document.querySelector('table tbody');
 	tableBody.appendChild(row);
 };
 
